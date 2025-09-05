@@ -252,7 +252,7 @@ function handleWishesFormSubmission() {
   // Email Integration using FormSubmit.co
   const formData = new FormData(document.getElementById("wishes-form"))
 
-  fetch("https://formsubmit.co/969db4d3754794ee99c5e23b8134d184 ", {
+  fetch("https://formsubmit.co/969db4d3754794ee99c5e23b8134d184", {
     method: "POST",
     body: formData,
   })
